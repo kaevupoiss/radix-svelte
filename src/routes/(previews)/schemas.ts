@@ -2,6 +2,7 @@ import { schema as Tooltip } from './Tooltip/schema';
 import { schema as AlertDialog } from './AlertDialog/schema';
 import { schema as RadioGroup } from './RadioGroup/schema';
 import { schema as Select } from './Select/schema';
+import { schema as Toast } from './Toast/schema';
 import { schema as ToggleGroup } from './ToggleGroup/schema';
 import { schema as Accordion } from './Accordion/schema';
 import { schema as AspectRatio } from './AspectRatio/schema';
@@ -41,4 +42,5 @@ export const schemas = {
 	alertdialog: AlertDialog,
 	hovercard: HoverCard,
 	tooltip: Tooltip,
+	toast: Toast,
 };
